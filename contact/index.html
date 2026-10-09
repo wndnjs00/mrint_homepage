@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko" data-depth="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>문의하기 | 미래아이엔텍</title>
+<meta name="description" content="프로젝트 문의, 솔루션 도입, 회사소개서 발송 요청 — ㈜미래아이엔텍에 문의해 주세요.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body data-page="contact">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<div id="hdr-mount"></div>
+<main id="main">
+
+<section class="page-hero" data-screen-label="Hero">
+  <div class="wrap">
+    <div class="eyebrow">05 — Contact</div>
+    <h1>미래를 위한<br><em>기술 파트너</em>, 미래아이엔텍</h1>
+    <p class="ph-sub" id="phIntro"></p>
+    <div class="ph-foot"><span>Tel <b id="phTel"></b></span><span>Email <b id="phEmail"></b></span><span>Hours <b>평일 09:00–18:00</b></span></div>
+  </div>
+</section>
+
+<section class="contact-page sec" data-screen-label="Forms">
+  <div class="wrap">
+    <div class="form-grid">
+
+      <div class="form-card rv">
+        <div class="eyebrow">Inquiry</div>
+        <h3>문의하기</h3>
+        <p class="fc-sub" id="inqSub"></p>
+        <form id="inquiryForm">
+          <div class="field"><label for="fName">Name <em>*</em></label><input id="fName" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="fCompany">Company</label><input id="fCompany" name="company" type="text" autocomplete="organization"></div>
+          <div class="field"><label for="fEmail">Email <em>*</em></label><input id="fEmail" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="fMsg">Message <em>*</em></label><textarea id="fMsg" name="message" required></textarea></div>
+          <label class="check"><input type="checkbox" required><span id="privacyBriefHtml"></span></label>
+          <button class="btn" type="submit">문의 보내기 <span class="arr"></span></button>
+        </form>
+        <div class="f-done" id="inqDone" role="status"></div>
+      </div>
+
+      <div class="form-card rv d1" id="brochure">
+        <div class="eyebrow">Brochure</div>
+        <h3 id="broTitle">회사소개서 발송 요청</h3>
+        <p class="fc-sub" id="broSub"></p>
+        <form id="brochureForm">
+          <div class="field"><label for="bEmail">Email <em>*</em></label><input id="bEmail" name="email" type="email" required autocomplete="email"></div>
+          <label class="check"><input type="checkbox" required><span id="privacyBriefHtml2"></span></label>
+          <button class="btn" type="submit">회사소개서 받기 <span class="arr"></span></button>
+        </form>
+        <div class="f-done" id="broDone" role="status"></div>
+      </div>
+
+    </div>
+
+    <div class="cinfo" id="cinfo" style="margin-top:clamp(48px,6vw,80px)"></div>
+  </div>
+</section>
+
+</main>
+<div id="ftr-mount"></div>
+<script src="../assets/js/content.js"></script>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
